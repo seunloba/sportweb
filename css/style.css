@@ -808,10 +808,22 @@ ul.social_top_icon li a:hover {
     padding: 0;
 }
 
-#map {
+.map_section {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.map_section iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/* #map {
     height: 100%;
     min-height: 480px;
-}
+} */
 
 .padddd {
     padding: 0px;
